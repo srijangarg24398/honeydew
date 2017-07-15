@@ -1,0 +1,32 @@
+body{
+	width: 97vw;
+	height: 94vh;
+	background-color: lightgrey;
+	border: 10px solid brown;
+	border-radius: 5%;
+	background: url('gif.gif') no-repeat;
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+	;
+}
+div#one{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-image: radial-gradient(ellipse farthest-corner at 45px 45px , #00FFFF 0%, rgba(0, 0, 255, 0) 50%, #0000FF 95%);
+	position: fixed;
+}
+div#left{
+	position: fixed;
+	background-color:red;
+	width:10px;
+	left: 200px;
+	height:150px;
+}
+div#right{
+	position: fixed;
+	background-color:green;
+	width:10px;
+	height:150px;
+	right: 200px;
+}
